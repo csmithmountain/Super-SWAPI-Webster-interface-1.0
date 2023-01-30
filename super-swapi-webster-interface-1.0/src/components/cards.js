@@ -87,10 +87,7 @@ export default class Cards extends React.Component {
                     </table>
                 </div>
 
-                <div className="buttons">
-                <button className ="btn btn-previous">Previous</button>
-                <button className ="btn btn-next">Next</button>
-                </div>
+
             </div>
             );
         }
