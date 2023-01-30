@@ -1,12 +1,8 @@
 import React from "react"
 
-//Lista med Peoples (test)
-// let Array1 = [];
- 
-// console.log(Array1);
+import Buttons from ".components/buttons"
 
-
-export default class Cards extends React.Component {
+export default class People extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -53,33 +49,15 @@ export default class Cards extends React.Component {
                                     <th>Eye color</th>
                                 </tr>
                                 <tr>
-                                <td>
-                                    {item.name}
-                                </td>
-                                <td>
-                                {item.mass}
-                                </td>
-                                <td>
-                                    {item.height}
-                                </td>
-                                <td>
-                                    {item.hair_color}
-                                </td>
-                                <td>
-                                    {item.skin_color} 
-                                </td>
-                                <td>
-                                    {item.birth_year}
-                                </td>
-                                <td>
-                                    {item.homeworld}
-                                </td>
-                                <td>
-                                    {item.gender}
-                                </td>
-                                <td>
-                                    {item.eye_color}
-                                </td>
+                                <td> {item.name} </td>
+                                <td> {item.mass} </td>
+                                <td> {item.height} </td>
+                                <td> {item.hair_color} </td>
+                                <td> {item.skin_color} </td>
+                                <td> {item.birth_year} </td>
+                                <td> {item.homeworld} </td>
+                                <td> {item.gender} </td>
+                                <td> {item.eye_color} </td>
                                 </tr>
                                 </tbody>
                             ))

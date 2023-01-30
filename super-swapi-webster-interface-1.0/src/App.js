@@ -1,10 +1,10 @@
-import Cards from "./components/cards"
+import People from "./components/people"
 import Buttons from "./components/buttons.js"
-import SearchBar from "./components/searchbar"
-import StationaryComponents from "./components/station"
+import SearchBar from "./components/Searchbar"
+import StationaryComponents from "./components/stationarycomponents"
 
 export default function App() { 
   return (
-    <Cards></Cards>
+    <People></People>
   )
 }

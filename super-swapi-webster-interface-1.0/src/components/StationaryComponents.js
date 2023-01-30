@@ -1,6 +1,10 @@
 import React, { memo } from "react";
-import Cards from ".components/cards"
-import Buttons from ".components/buttons"
+import People from ".components/people"
+import Films from ".components/films"
+import Planets from ".components/planets"
+import Species from ".components/species"
+import Starships from ".components/starships"
+import Vehicles from ".components/vehicles"
 
 
 function StationaryComponents(props) {
