@@ -37,7 +37,7 @@ export default class Vehicles extends React.Component {
                         {
                             items.map(item => (
                                 <tbody>
-                                <tr key={item.id}>              /*Ändra katergorier */
+                                <tr key={item.id}>            
                                 <th>Name</th> 
                                     <th>Model</th>
                                     <th>Manufacturer</th>
