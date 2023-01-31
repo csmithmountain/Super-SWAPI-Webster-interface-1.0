@@ -37,27 +37,23 @@ export default class Films extends React.Component {
                         {
                             items.map(item => (
                                 <tbody>
-                                <tr key={item.id}>              /*Ändra katergorier */
-                                    <th>Name</th> 
-                                    <th>Mass</th>
-                                    <th>Height</th>
-                                    <th>Hair color</th> 
-                                    <th>Skin color</th>
-                                    <th>Birth year</th>
-                                    <th>Homeworld</th> 
-                                    <th>Gender</th>
-                                    <th>Eye color</th>
+                                <tr key={item.id}>             
+                                <th>Title</th> 
+                                    <th>Episode</th>
+                                    <th>Opening crawl</th>
+                                    <th>Director</th> 
+                                    <th>Producer</th>
+                                    <th>Release date</th>
+                                    <th>Characters</th> 
                                 </tr>
                                 <tr>
-                                <td> {item.name} </td>
-                                <td> {item.mass} </td>
-                                <td> {item.height} </td>
-                                <td> {item.hair_color} </td>
-                                <td> {item.skin_color} </td>
-                                <td> {item.birth_year} </td>
-                                <td> {item.homeworld} </td>
-                                <td> {item.gender} </td>
-                                <td> {item.eye_color} </td>
+                                <td> {item.title} </td>
+                                <td> {item.episode_id} </td>
+                                <td> {item.opening_crawl} </td>
+                                <td> {item.director} </td>
+                                <td> {item.producer} </td>
+                                <td> {item.release_date} </td>
+                                <td> {item.characters} </td>
                                 </tr>
                                 </tbody>
                             ))

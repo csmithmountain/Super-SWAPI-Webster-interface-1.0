@@ -39,25 +39,25 @@ export default class Planets extends React.Component {
                                 <tbody>
                                 <tr key={item.id}>              /*Ändra katergorier */
                                     <th>Name</th> 
-                                    <th>Mass</th>
-                                    <th>Height</th>
-                                    <th>Hair color</th> 
-                                    <th>Skin color</th>
-                                    <th>Birth year</th>
-                                    <th>Homeworld</th> 
-                                    <th>Gender</th>
-                                    <th>Eye color</th>
+                                    <th>Rotation period</th>
+                                    <th>Orbital period</th>
+                                    <th>Climate</th> 
+                                    <th>Gravity</th>
+                                    <th>Terrain</th>
+                                    <th>Surface water</th> 
+                                    <th>Population</th>
+                                    <th>Residents</th>  
                                 </tr>
                                 <tr>
                                 <td> {item.name} </td>
-                                <td> {item.mass} </td>
-                                <td> {item.height} </td>
-                                <td> {item.hair_color} </td>
-                                <td> {item.skin_color} </td>
-                                <td> {item.birth_year} </td>
-                                <td> {item.homeworld} </td>
-                                <td> {item.gender} </td>
-                                <td> {item.eye_color} </td>
+                                <td> {item.rotation_period} </td>
+                                <td> {item.orbital_period} </td>
+                                <td> {item.climate} </td>
+                                <td> {item.gravity} </td>
+                                <td> {item.terrain} </td>
+                                <td> {item.surface_water} </td>
+                                <td> {item.population} </td>
+                                <td> {item.residents} </td>
                                 </tr>
                                 </tbody>
                             ))

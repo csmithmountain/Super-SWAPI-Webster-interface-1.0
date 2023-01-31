@@ -37,27 +37,31 @@ export default class Species extends React.Component {
                         {
                             items.map(item => (
                                 <tbody>
-                                <tr key={item.id}>              /*Ändra katergorier */
+                                <tr key={item.id}>             
                                     <th>Name</th> 
-                                    <th>Mass</th>
-                                    <th>Height</th>
-                                    <th>Hair color</th> 
-                                    <th>Skin color</th>
-                                    <th>Birth year</th>
-                                    <th>Homeworld</th> 
-                                    <th>Gender</th>
-                                    <th>Eye color</th>
+                                    <th>Classification</th>
+                                    <th>Designation</th>
+                                    <th>Average height</th> 
+                                    <th>Skin Colors</th>
+                                    <th>Hair colors</th>
+                                    <th>Eye colors</th> 
+                                    <th>Average lifespan</th>
+                                    <th>Homeworld</th>
+                                    <th>Language</th>
+                                    <th>People</th>
                                 </tr>
                                 <tr>
                                 <td> {item.name} </td>
-                                <td> {item.mass} </td>
-                                <td> {item.height} </td>
-                                <td> {item.hair_color} </td>
-                                <td> {item.skin_color} </td>
-                                <td> {item.birth_year} </td>
+                                <td> {item.classification} </td>
+                                <td> {item.designation} </td>
+                                <td> {item.average_height} </td>
+                                <td> {item.skin_colors} </td>
+                                <td> {item.hair_colors} </td>
+                                <td> {item.eye_colors} </td>
+                                <td> {item.average_lifespan} </td>
                                 <td> {item.homeworld} </td>
-                                <td> {item.gender} </td>
-                                <td> {item.eye_color} </td>
+                                <td> {item.language} </td>
+                                <td> {item.people} </td>
                                 </tr>
                                 </tbody>
                             ))
